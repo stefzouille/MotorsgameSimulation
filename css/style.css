@@ -1,0 +1,82 @@
+body {
+  font-family: Verdana, 'Arial Black', Arial, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(166, 166, 169);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  /* object-fit: cover; */
+}
+@media (max-width: 360px) {
+  body {
+    padding: 0rem;
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+    padding: 0rem;
+  }
+}
+/* la largeur du viewport minimum 1200px */
+@media (min-width: 1200px) {
+  body {
+    padding: 0rem;
+  }
+}
+
+header {
+  text-align: center;
+  /* background-color: rgb(10, 233, 233); */
+  color: black;
+}
+header h1 {
+  padding-top: 15px;
+}
+nav img {
+  width: 95%;
+  height: 20%;
+  opacity: 1;
+}
+nav p {
+  text-align: center;
+  /* width: 100%; */
+  margin-left: 46px;
+  margin-top: 30px;
+  margin: 50px 30px 50px 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+}
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font: 3em sans-serif;
+  border: 0.2rem solid rgb(255, 255, 251);
+  margin: 0px;
+}
+.menu li {
+  /* border: 0.2rem solid rgb(38, 38, 38); */
+  text-align: center;
+  width: auto;
+  height: 20%;
+  margin: 10px;
+}
+.menu li a {
+  text-decoration: none;
+  color: rgb(177, 0, 0);
+}
+#principale {
+  text-align: center;
+  width: auto;
+}
+#principale img {
+  width: 500px;
+}

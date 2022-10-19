@@ -1,0 +1,16 @@
+body {
+  font-family: Verdana, 'Arial Black', Arial, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(166, 166, 169);
+}
+h1 {
+  text-align: center;
+  margin: 5%;
+  font: 10em sans-serif;
+}
+
+#intro {
+  margin: 30px;
+  text-align: auto;
+}
