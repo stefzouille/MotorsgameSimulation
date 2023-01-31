@@ -86,7 +86,17 @@ div {
 #principale {
   text-align: center;
   width: auto;
+  margin-left: 86px;
+  margin-top: 30px;
+  margin: 50px 30px 50px 30px;
 }
 #principale img {
   width: 500px;
+}
+#principale p {
+  text-align: center;
+  /* width: 100%; */
+  margin-left: 86px;
+  margin-top: 30px;
+  margin: 50px 30px 50px 30px;
 }
