@@ -100,3 +100,35 @@ div {
   margin-top: 30px;
   margin: 50px 30px 50px 30px;
 }
+
+
+
+
+/* Responsive css */
+/* Add a media query for devices with a maximum width of 360px */
+@media (max-width: 360px) {
+  body {
+    font-size: smaller; /* Reduce the font size for smaller screens */
+    padding: 0; /* Remove the padding */
+  }
+  
+  header {
+    padding: 10px; /* Add some padding to the header */
+  }
+  
+  article {
+    margin-left: 0; /* Remove the margin from the article */
+  }
+  
+  /* Add similar adjustments for other elements as needed */
+}
+
+
+/* Add another media query for devices with a minimum width of 800px */
+@media (min-width: 800px) {
+  body {
+    font-size: larger; /* Increase the font size for larger screens */
+  }
+  
+  /* Add similar adjustments for other elements as needed */
+}
