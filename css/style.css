@@ -64,15 +64,16 @@ div {
 }
 .menu li {
   display: block;
-  border: 0.2rem solid rgb(107, 111, 117);
+  /* border: 0.2rem solid rgb(107, 111, 117); */
   /* text-align: center; */
-  /* width: auto; */
+  font-size: auto;
+  margin: 10px;
 }
 .menu li a {
   width: auto;
   height: auto;
   text-decoration: none;
-  color: rgb(44, 110, 231);
+  color: rgb(255, 255, 255);
 }
 #principale {
   text-align: center;
