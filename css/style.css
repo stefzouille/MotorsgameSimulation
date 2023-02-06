@@ -14,29 +14,7 @@ img {
   height: auto;
   /* object-fit: cover; */
 }
-/* @media (max-width: 360px) {
-  body {
-    padding: 0rem;
-  }
-}
 
-@media (min-width: 800px) {
-  body {
-    padding: 0rem;
-  }
-}
-/* la largeur du viewport minimum 1200px */
-/* @media (min-width: 1200px) {
-  body {
-    padding: 0rem;
-  }
-}  */
-
-/* header {
-  text-align: center;
-  color: black;
-  margin: 25px;
-} */
 
 nav img {
   width: 100%;
