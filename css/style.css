@@ -1,8 +1,12 @@
 body {
   font-family: Verdana, 'Arial Black', Arial, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
   background-color: rgb(166, 166, 169);
+  /* background-image: url(../img/moncockpit.JPG); */
+
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url(../img/moncockpit.JPG);
 }
 
 img {
@@ -10,7 +14,7 @@ img {
   height: auto;
   /* object-fit: cover; */
 }
-@media (max-width: 360px) {
+/* @media (max-width: 360px) {
   body {
     padding: 0rem;
   }
@@ -22,26 +26,32 @@ img {
   }
 }
 /* la largeur du viewport minimum 1200px */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   body {
     padding: 0rem;
   }
-}
+}  */
 
-header {
+/* header {
   text-align: center;
-  /* background-color: rgb(10, 233, 233); */
   color: black;
-}
-header h1 {
-  padding-top: 15px;
-}
+  margin: 25px;
+} */
+
 nav img {
-  width: 95%;
+  width: 100%;
   height: 20%;
   opacity: 1;
 }
 nav p {
+  text-align: center;
+  /* width: 100%; */
+  margin-left: 46px;
+  margin-top: 30px;
+  margin: 50px 30px 50px 30px;
+}
+
+nav h3 {
   text-align: center;
   /* width: 100%; */
   margin-left: 46px;
@@ -59,36 +69,39 @@ div {
   width: auto;
   height: auto;
 }
+.option {
+  border: 0.2rem solid rgb(236, 236, 0);
+
+  margin: 10px;
+}
 .menu {
-  padding: 0;
-  list-style-type: none;
-  display: inline-flex;
-  justify-content: space-evenly;
-  /* text-align: center; */
-  font: 1.5em sans-serif;
+  padding: 10px;
+  /* list-style-type: none; */
+  /* display: flex;  */
+  /* /* justify-content: space-evenly; */
+  text-align: center;
+  /* font: 1.5em sans-serif; */
   /* border: 0.2rem solid rgb(255, 255, 251); */
-  margin: 0px;
+  /* margin: 10px; */
 }
 .menu li {
   display: block;
-  border: 0.2rem solid rgb(38, 38, 38);
-  text-align: center;
-  width: auto;
-  height: 20%;
-  margin: 10px;
+  border: 0.2rem solid rgb(107, 111, 117);
+  /* text-align: center; */
+  /* width: auto; */
 }
 .menu li a {
   width: auto;
   height: auto;
   text-decoration: none;
-  color: rgb(177, 0, 0);
+  color: rgb(44, 110, 231);
 }
 #principale {
   text-align: center;
   width: auto;
-  margin-left: 86px;
-  margin-top: 30px;
-  margin: 50px 30px 50px 30px;
+  /* margin-left: 86px;
+  margin-top: 30px; */
+  /* margin: 50px 30px 50px 30px; */
 }
 #principale img {
   width: 500px;
